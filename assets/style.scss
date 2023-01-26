@@ -13,8 +13,7 @@
 /* BASE RULES */
 /**************/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 html {
   font-size: 100%;
@@ -23,7 +22,7 @@ html {
 
 body {
   background: #fff;
-  font-family: 'Red Hat Text', -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Red Hat Text', -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #404040;
   line-height: 1.7;
   font-weight: 400;
@@ -39,9 +38,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Red Hat Text', -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: $darkerGray;
-  font-weight: bold;
+  font-weight: 600;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -62,6 +61,13 @@ h1 {
 
 h2 {
   font-size: 24px;
+
+  margin: 0 auto;
+  width: 80%;
+  
+  @include mobile {
+    width: 100%;
+  }
 }
 
 @media (min-width: 769px){
@@ -87,6 +93,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  text-align: justify;
 }
 
 table {
@@ -178,11 +185,15 @@ span[data-pullquote]:before {
 }
 
 a {
-  color: $blue;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-style: dotted;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    text-decoration-style: solid;
+  }
+
+  &:visited {
+    color: inherit;
   }
 }
 
@@ -279,7 +290,7 @@ p > img {
 }
 
 .site-avatar {
-  width: 370px;
+  width: 300px;
 
   float: none;
   margin: 0 auto;
@@ -318,38 +329,91 @@ p > img {
   // }
 }
 
-nav {
-  border: 1px solid black;
+.site-title {
+  padding-top: 20px;
+  margin-top: 20px;
 
-  margin: 10px auto;
+  border-top: 1px solid $lightGray;
 
-  // float: right;
-  // margin-top: 23px; // @TODO: Vertically middle align
-  // font-family: $helveticaNeue;
-  font-size: 18px;
+  h2 { color: $darkerGray; font-size: 100%; }
+  h3 { color: $yellow; font-size: 110%; }
 
-
-  // @include mobile {
-    float: none;
-    // margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  // }
-
-  a {
-    // margin-left: 20px;
-    // color: $darkGray;
-    // text-align: right;
-    // font-weight: 300;
-    // letter-spacing: 1px;
-
-    // // @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    // // }
+  h2 + h4 {
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 90%;
+    color: $gray;
   }
 }
 
+nav {
+  border-top: 1px solid $lightGray;
+  
+  padding-top: 20px;
+  font-size: 18px;
+
+  float: none;
+  margin-top: 24px;
+  display: block;
+  font-size: 16px;
+
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    text-align: right;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    margin: 0 10px;
+    color: $red;
+  }
+
+  a:before {
+    content: '⇢\00a0'
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:nth-of-type(1) {
+    color: $yellow;
+  }
+
+  a:nth-of-type(2) {
+    color: $red;
+  }
+
+  a:nth-of-type(3) {
+    color: $green;
+  }
+
+  a:nth-of-type(4) {
+    color: $blue;
+  }
+
+  @include mobile {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+}
+
+#about {
+  color: $yellow !important;
+}
+
+#participate {
+  color: $green !important;
+}
+
+#program {
+  color: $red !important;
+}
+
+#organizers {
+  color: $blue !important;
+}
 //
 // .main
 //
@@ -418,13 +482,33 @@ footer {
 }
 
 body:after {
-    background: linear-gradient(to right, #ffffff   0, #2196F3   33%, #E91E63   66%, #000 100%);
-    width: 100%;
-    height: 5px;
-    top: 0;
-    position: absolute;
-    left: 0;
-    content: '';
+  background: linear-gradient(to right, #ffffff   0, #2196F3   33%, #E91E63   66%, #000 100%);
+  width: 100%;
+  height: 5px;
+  top: 0;
+  position: absolute;
+  left: 0;
+  content: '';
+}
+
+#title {
+  h3 {
+    margin-top: none;
+    color: blue;
+  }
+}
+
+
+#main {
+  h3 {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid $lightGray;
+
+    color: $blue;
+  }
+
+  font-size: 16px;
 }
 
 #bar {
@@ -440,7 +524,7 @@ body:after {
 }
 
 .post h1{
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-align: center;
   font-weight: bold;
   font-kerning: auto;
@@ -449,7 +533,7 @@ body:after {
 }
 
 .page h1{
-  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-align: center;
   font-weight: bold;
   font-kerning: auto;
@@ -621,7 +705,7 @@ Modules - reusable parts of our design
 }
 
 #carbonads {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline-block;
   overflow: hidden;
   max-width: 270px;
@@ -1130,9 +1214,5 @@ Modules - reusable parts of our design
   }
 }
 
-
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-//@import "highlights";
 @import "darcula";
 @import "svg-icons";
