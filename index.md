@@ -12,10 +12,10 @@ open data initiatives that focus on the human scholar, the FAIR
 Principles put specific emphasis on machine legibility, in addition to
 supporting its reuse by individuals. 
 
-While data could simply be viewed as an object of visualization, a more
-holistic approach considers visualizations derived from data as
-(graphical) data products, subjecting the visualization process itself
-to the FAIR principles.
+A holistic approach to research data management not only considers
+FAIRness of data, but extends to *all* processes and artifacts used to
+obtain research results, including visualization and subjecting
+it to FAIR requirements.
 
 **FAIRvis** aims bring together experts in visualization and FAIR data
 practices to discuss two core questions at the intersection of
@@ -35,25 +35,42 @@ visualization research and practice, and b) identify open problems for
 the visualization community to address in future research, such that
 visualization can flourish in a FAIR future.
 
-### Participate 
+### Call for Participation
 
-Please check back soon for information on how to participate in the
-workshop.
+In order to initiate a lively discussion in the FAIRvis Workshop, we
+call for **lightning talks** on open problems in FAIR visualization or on
+existing use of FAIR practices in and for visualization. 
+
+Lightning talks should be approximately 5 minutes long and may include
+any results, experiences, or insights in relation to visualization and the FAIR
+principles. 
+
+Topics of interest include, but are not limited to:
+- metadata annotation of visualizations and visualization workflows 
+- reproducibility in visualization 
+- implementation-agnostic description of visualizations
+- provenance visualization and provenance of visualizations
+- domain-specific visualization solutions
+- visualization across large-scale user bases 
+- visualization archives and libraries 
+- FAIR best practices for visualization research 
+- examples of (un)successful usage of FAIR principles in visualization research 
+- evaluation on the FAIRness in visualization research 
+- extension of FAIR principles for visualization 
+
+If you would like to participate, please send a short abstract of the talk
+that you are planning to give (approx. 200 words) as well as your
+information (name, affiliation, research interest) to
+[gillmann@informatik.uni-leipzig.de](mailto:gillmann@informatik.uni-leipzig.de).
+
+##### Important Dates
+
+- **May 21, 2023** deadline for lightning talk submissions
+- **June 12, 2023** FAIRvis workshop
 
 ### Program
 
 The **FAIRvis** program is currently under construction – please check back soon.
-
-<!-- # Intended Outcomes
-
-
-
-* Bring together experts from visualization and FAIR scientific workflows to jointly author a survey / state-of-the-art report on FAIR aspects of visualization. 
-* Start organizing a community at the intersection of visualization and FAIR research, to identify and work on a research program in FAIR visualization (e.g., continued through future workshops or [Dagstuhl] seminars).
-
-
-# <span style="text-decoration:underline;">Organizers</span>
- -->
 
 ### Organizers
 

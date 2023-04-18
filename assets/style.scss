@@ -136,6 +136,9 @@ table tr td :last-child {
 	margin-bottom: 0;
 }
 
+a {
+  color: inherit;
+}
 /*.detailed .entry p:first-of-type:first-letter {
     float: left;
     margin: 0.13em 0.05em 0 -0.05em;
@@ -403,12 +406,12 @@ nav {
   color: $yellow !important;
 }
 
-#participate {
-  color: $green !important;
+#call-for-participation {
+  color: $red !important;
 }
 
 #program {
-  color: $red !important;
+  color: $green !important;
 }
 
 #organizers {
