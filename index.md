@@ -50,7 +50,7 @@ Topics of interest include, but are not limited to:
 - reproducibility in visualization 
 - implementation-agnostic description of visualizations
 - provenance visualization and provenance of visualizations
-- domain-specific visualization solutions
+- domain-specific FAIR visualization solutions
 - visualization across large-scale user bases 
 - visualization archives and libraries 
 - FAIR best practices for visualization research 
