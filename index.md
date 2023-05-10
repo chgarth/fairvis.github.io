@@ -65,7 +65,7 @@ information (name, affiliation, research interest) to
 
 ##### Important Dates
 
-- **May 21, 2023** deadline for lightning talk submissions
+- **May 31, 2023** deadline for lightning talk submissions
 - **June 12, 2023** FAIRvis workshop
 
 ### Program
