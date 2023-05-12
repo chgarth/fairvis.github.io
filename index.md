@@ -35,6 +35,11 @@ visualization research and practice, and b) identify open problems for
 the visualization community to address in future research, such that
 visualization can flourish in a FAIR future.
 
+#### Registration
+
+FAIRvis is co-located with EuroVis 2023 in Leipzig. Please register
+[here](https://conferences.eg.org/eurovis2023/for-attendees/registration/) to attend FAIRvis.
+
 ### Call for Participation
 
 In order to initiate a lively discussion in the FAIRvis Workshop, we
@@ -70,7 +75,30 @@ information (name, affiliation, research interest) to
 
 ### Program
 
-The **FAIRvis** program is currently under construction – please check back soon.
+FAIRvis is a [EuroVis 2023](https://conferences.eg.org/eurovis2023/) workshop. For detailed time
+information, please also check [here](https://conferences.eg.org/eurovis2023/workshops/).
+<!-- The **FAIRvis** program is currently under construction – please check back soon. -->
+
+**Session 1: Overview and Perspectives**  
+*Session Chair: Heike Leitte*
+
+- **Opening and Goals** (Christoph Garth, *10 min*)
+
+- **Keynote 1: FAIR Visualization in Plant Research**  (~ 40 min)  
+  Timo Mühlhaus, NFDI consortium DataPLANT and RPTU Kaiserslautern-Landau
+
+- **Keynote 2:** t.b.d. (~ 40 min)
+
+**Session 2: Insights and Discussion**  
+*Session Chair: Christina Gillmann*
+
+- **Lightning Talks** (~ 40 min)  
+  speaker list to be announced shortly
+
+- **Panel Discussion** (~40 min)
+  panelists to be announced shortly
+
+- **Next Steps and Closing** (Christoph Garth, *10 min*)
 
 ### Organizers
 
