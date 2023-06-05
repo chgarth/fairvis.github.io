@@ -40,6 +40,72 @@ visualization can flourish in a FAIR future.
 FAIRvis is co-located with EuroVis 2023 in Leipzig. Please register
 [here](https://conferences.eg.org/eurovis2023/for-attendees/registration/) to attend FAIRvis.
 
+
+### Program
+
+FAIRvis is a [EuroVis 2023](https://conferences.eg.org/eurovis2023/) workshop. For detailed time
+information, please also check [here](https://conferences.eg.org/eurovis2023/workshops/).
+<!-- The **FAIRvis** program is currently under construction – please check back soon. -->
+
+**Session 1: Overview and Perspectives**  
+*Session Chair: Heike Leitte*
+
+- **Opening and Goals** (Christoph Garth)
+
+- <span style="color: #4064af; font-weight: bold;">Keynote: FAIR Visualization in Plant Research</span> (*~ 40 min*)  
+  Timo Mühlhaus, NFDI consortium DataPLANT and RPTU Kaiserslautern-Landau
+
+- <span style="color: #4064af; font-weight: bold;">Keynote: Toward FAIR Visualization of Visualization Research</span> (*~
+  40 min*)  
+  Tobias Isenberg, INRIA
+
+**Session 2: Insights and Discussion**  
+*Session Chair: Christina Gillmann*
+
+- **Lightning Talks** (~ 40 min)  
+
+  - <span style="color: #4064af; font-weight: bold;">Making Vis FAIR - Experiences from Computational Biology</span>  
+    Daniel Wiegreffe, University of Leipzig
+   
+    <p style="font-size: 80%; margin: -.5em 0 1em 0;">
+    Visualization has many important tasks and is often used for example
+    for exploration and analysis of data in computational biology. In
+    this field of research, many experiments are conducted multiple
+    times, sometimes experiments are repeated years later. The software
+    for analyzing the data derived from these experiments must therefore
+    meet high quality standards, so that the results of experiments are
+    reproducible. Therefore, the FAIR principles are often applied to
+    the software used in this field. In my talk I want to share my
+    experiences on the implementation of the FAIR principle for
+    visualization software in the field of computational biology. These
+    are to a large extent also transferable to general visualization
+    software.
+    </p>
+
+  - <span style="color: #4064af; font-weight: bold;">Towards FAIR visualization of FAIR climate data</span>  
+    Michael Böttinger, Deutsches Klimarechenzentrum
+
+  - <span style="color: #4064af; font-weight: bold;">Rules, Regulations, and the "I" in FAIR</span>  
+    Guido Reina, University of Stuttgart
+   
+    <p style="font-size: 80%; margin: -.5em 0 1em 0;">
+    We should make source code a mandatory part of submissions where appropriate. It is not fit for a discipline as close to computer science as ours to ignore this when other domains have been requiring complete reproducibility for years. Having the code to reproduce paper figures, at least, is not an unreasonable requirement. Any improvement on that can be considered a net win. Code is also critical when considering Interoperability in the FAIR principles: abstractly specifying visualizations has been researched in the past, but the building blocks of visualizations and visualization tools are so diverse that mixing and matching them is still going to be a challenge for a while, especially when aiming for scalability. Even if combining them were easier, the data itself presents challenges. Many of our current problems do not scale with easily portable exchange formats, and container file formats give a false sense of accomplishment. Specialized, high-performance formats bring the discussion full circle to specialized approaches and the necessity of publishing sources.
+    </p>  
+
+  - <span style="color: #4064af; font-weight: bold;">Identifying Manipulation in Scientific Datasets</span>  
+    Devin Lange, University of Utah
+
+  - <span style="color: #4064af; font-weight: bold;">The Data Science Infrastructure Project</span>  
+    James P. Ahrens, Los Alamos National Laboratory
+   
+    <p style="font-size: 80%; margin: -.5em 0 1em 0;">
+    The Data Science Infrastructure (DSI) project focuses on automated data-driven collection approaches to make metadata and data more readily available for use in scientific workflows.  DSI provides an API for storing, searching, and accessing metadata and associated data including collections of simulation and experimental runs across different filesystems and computing environments. DSI supports working with ensembles of data, provenance data, machine learning models input and outputs, and performance data. An open-source release of DSI can be found at <a href="https://github.com/lanl/dsi">https://github.com/lanl/dsi</a>. 
+    </p>
+
+- **Open Discussion** (~40 min)
+
+- **Next Steps and Closing** (Christoph Garth, *10 min*)
+
 ### Call for Participation
 
 In order to initiate a lively discussion in the FAIRvis Workshop, we
@@ -72,33 +138,6 @@ information (name, affiliation, research interest) to
 
 - **May 31, 2023** deadline for lightning talk submissions
 - **June 12, 2023** FAIRvis workshop
-
-### Program
-
-FAIRvis is a [EuroVis 2023](https://conferences.eg.org/eurovis2023/) workshop. For detailed time
-information, please also check [here](https://conferences.eg.org/eurovis2023/workshops/).
-<!-- The **FAIRvis** program is currently under construction – please check back soon. -->
-
-**Session 1: Overview and Perspectives**  
-*Session Chair: Heike Leitte*
-
-- **Opening and Goals** (Christoph Garth, *10 min*)
-
-- **Keynote 1: FAIR Visualization in Plant Research**  (~ 40 min)  
-  Timo Mühlhaus, NFDI consortium DataPLANT and RPTU Kaiserslautern-Landau
-
-- **Keynote 2:** t.b.d. (~ 40 min)
-
-**Session 2: Insights and Discussion**  
-*Session Chair: Christina Gillmann*
-
-- **Lightning Talks** (~ 40 min)  
-  speaker list to be announced shortly
-
-- **Panel Discussion** (~40 min)
-  panelists to be announced shortly
-
-- **Next Steps and Closing** (Christoph Garth, *10 min*)
 
 ### Organizers
 
