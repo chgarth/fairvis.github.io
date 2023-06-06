@@ -92,14 +92,21 @@ information, please also check [here](https://conferences.eg.org/eurovis2023/wor
     We should make source code a mandatory part of submissions where appropriate. It is not fit for a discipline as close to computer science as ours to ignore this when other domains have been requiring complete reproducibility for years. Having the code to reproduce paper figures, at least, is not an unreasonable requirement. Any improvement on that can be considered a net win. Code is also critical when considering Interoperability in the FAIR principles: abstractly specifying visualizations has been researched in the past, but the building blocks of visualizations and visualization tools are so diverse that mixing and matching them is still going to be a challenge for a while, especially when aiming for scalability. Even if combining them were easier, the data itself presents challenges. Many of our current problems do not scale with easily portable exchange formats, and container file formats give a false sense of accomplishment. Specialized, high-performance formats bring the discussion full circle to specialized approaches and the necessity of publishing sources.
     </p>  
 
-  - <span style="color: #4064af; font-weight: bold;">Identifying Manipulation in Scientific Datasets</span>  
-    Devin Lange, University of Utah
-
   - <span style="color: #4064af; font-weight: bold;">The Data Science Infrastructure Project</span>  
     James P. Ahrens, Los Alamos National Laboratory
    
     <p style="font-size: 80%; margin: -.5em 0 1em 0;">
     The Data Science Infrastructure (DSI) project focuses on automated data-driven collection approaches to make metadata and data more readily available for use in scientific workflows.  DSI provides an API for storing, searching, and accessing metadata and associated data including collections of simulation and experimental runs across different filesystems and computing environments. DSI supports working with ensembles of data, provenance data, machine learning models input and outputs, and performance data. An open-source release of DSI can be found at <a href="https://github.com/lanl/dsi">https://github.com/lanl/dsi</a>. 
+    </p>
+
+  - <span style="color: #4064af; font-weight: bold;">Identifying Manipulation in Scientific Datasets</span>  
+    Devin Lange, University of Utah
+
+  - <span style="color: #4064af; font-weight: bold;">Towards a Unifying Theory: Hypothesis Grammar for Data, Task, and Visualization</span>  
+    Kai Xu, Tufts University
+
+    <p style="font-size: 80%; margin: -.5em 0 1em 0;">
+    Data, task, and visualizations form the foundation of data visualization, where the effectiveness of a visualization depends on its alignment with the data and the user's task. While existing grammar frameworks like "The Grammar of Graphics" and interaction specifications in tools like vega-lite cover graphics and interaction, respectively, a comprehensive grammar for task remains elusive, despite numerous proposed task taxonomies. These taxonomies are challenging to operationalize, lacking the ability to easily translate into code that can generate visualizations and interactions. To bridge this gap, we propose a preliminary step towards a task grammar by introducing a hypothesis grammar. Complex tasks can be deconstructed into simpler hypotheses, drawing from our understanding of scientific hypotheses. One key advantage of this grammar is its potential to automatically generate hypotheses from a given dataset and subsequently generate visualizations for hypothesis testing, leveraging existing graphics and interaction grammars. Moreover, integrating hypothesis grammar can greatly support the FAIR principles. For instance, data can be annotated with the hypotheses they address, providing a deeper understanding of the "why" behind the data, surpassing conventional metadata like timestamps and authors. This annotation opens up possibilities such as searching for data based on specific hypotheses
     </p>
 
 - **Open Discussion** (~40 min)
