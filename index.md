@@ -62,7 +62,7 @@ information, please also check [here](https://conferences.eg.org/eurovis2023/wor
 **Session 2: Insights and Discussion**  
 *Session Chair: Christina Gillmann*
 
-- **Lightning Talks** (~ 40 min)  
+- **Lightning Talks** (~ 50 min)  
 
   - <span style="color: #4064af; font-weight: bold;">Making Vis FAIR - Experiences from Computational Biology</span>  
     Daniel Wiegreffe, University of Leipzig
@@ -104,12 +104,12 @@ information, please also check [here](https://conferences.eg.org/eurovis2023/wor
 
   - <span style="color: #4064af; font-weight: bold;">Towards a Unifying Theory: Hypothesis Grammar for Data, Task, and Visualization</span>  
     Kai Xu, University of Nottingham
-    
+
     <p style="font-size: 80%; margin: -.5em 0 1em 0;">
     Data, task, and visualizations form the foundation of data visualization, where the effectiveness of a visualization depends on its alignment with the data and the user's task. While existing grammar frameworks like "The Grammar of Graphics" and interaction specifications in tools like vega-lite cover graphics and interaction, respectively, a comprehensive grammar for task remains elusive, despite numerous proposed task taxonomies. These taxonomies are challenging to operationalize, lacking the ability to easily translate into code that can generate visualizations and interactions. To bridge this gap, we propose a preliminary step towards a task grammar by introducing a hypothesis grammar. Complex tasks can be deconstructed into simpler hypotheses, drawing from our understanding of scientific hypotheses. One key advantage of this grammar is its potential to automatically generate hypotheses from a given dataset and subsequently generate visualizations for hypothesis testing, leveraging existing graphics and interaction grammars. Moreover, integrating hypothesis grammar can greatly support the FAIR principles. For instance, data can be annotated with the hypotheses they address, providing a deeper understanding of the "why" behind the data, surpassing conventional metadata like timestamps and authors. This annotation opens up possibilities such as searching for data based on specific hypotheses
     </p>
 
-- **Open Discussion** (~40 min)
+- **Open Discussion** (~30 min)
 
 - **Next Steps and Closing** (Christoph Garth, *10 min*)
 
