@@ -59,6 +59,10 @@ information, please also check [here](https://conferences.eg.org/eurovis2023/wor
   40 min*)  
   Tobias Isenberg, INRIA
 
+  <p style="font-size: 80%; margin: -.5em 0 1em 0;">
+  Findable, accessible, interoperable, and reproducible research is gaining increasing importance in our field. As visualization researchers this often relates to the data that we work with and the software we write to analyze it. In the past, my colleagues and I have tried to analyze our field of visualization itself by looking at its evaluation practices, its use of keywords in papers, and the papers we publish and present at our conferences. So in this talk I will share some of our experiences in doing so, and the challenges we faced and are facing to make and keep the respective data and software accessible to the community. I will talk about our projects [KeyVis](keyvis.org), [Vispubdata](vispubdata.org), and, most recently, [VIS30K](visimagenavigator.github.io). I will report on the challenges to acquire the data, share it, and create and maintain software tools to work with them.
+  </p>
+
 **Session 2: Insights and Discussion**  
 *Session Chair: Christina Gillmann*
 
