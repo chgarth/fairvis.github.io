@@ -89,6 +89,11 @@ information, please also check [here](https://conferences.eg.org/eurovis2023/wor
   - <span style="color: #4064af; font-weight: bold;">Towards FAIR visualization of FAIR climate data</span>  
     Michael Böttinger, Deutsches Klimarechenzentrum
 
+    <p style="font-size: 80%; maring: -.5em 0 1em 0;">
+    Especially in the field of climate research, it is particularly important that the data and methods used to gain knowledge are comprehensible. The methods are described in scientific journal publications, and the data measured, calculated or derived for this purpose are also increasingly published in a FAIR-compliant manner (Wilkinson et al. 2016). This is done, among others, by the World Climate Data Center located at DKRZ.
+    For the sixth World Climate Assessment Report (<i><a href="https://doi.org/10.1515/ci-2021-0407">Climate Change 2021: The Physical Science Basis</a></i>), published in 2021, an attempt was also made for the first time to publish not only the relevant primary data, but also the visualizations or the corresponding code for them.
+    </p>
+
   - <span style="color: #4064af; font-weight: bold;">Rules, Regulations, and the "I" in FAIR</span>  
     Guido Reina, University of Stuttgart
    
@@ -103,8 +108,8 @@ information, please also check [here](https://conferences.eg.org/eurovis2023/wor
     The Data Science Infrastructure (DSI) project focuses on automated data-driven collection approaches to make metadata and data more readily available for use in scientific workflows.  DSI provides an API for storing, searching, and accessing metadata and associated data including collections of simulation and experimental runs across different filesystems and computing environments. DSI supports working with ensembles of data, provenance data, machine learning models input and outputs, and performance data. An open-source release of DSI can be found at <a href="https://github.com/lanl/dsi">https://github.com/lanl/dsi</a>. 
     </p>
 
-  - <span style="color: #4064af; font-weight: bold;">Identifying Manipulation in Scientific Datasets</span>  
-    Devin Lange, University of Utah
+  <!-- - <span style="color: #4064af; font-weight: bold;">Identifying Manipulation in Scientific Datasets</span>  
+    Devin Lange, University of Utah -->
 
   - <span style="color: #4064af; font-weight: bold;">Towards a Unifying Theory: Hypothesis Grammar for Data, Task, and Visualization</span>  
     Kai Xu, University of Nottingham
