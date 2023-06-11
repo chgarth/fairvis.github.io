@@ -3,7 +3,7 @@ layout: default
 ---
 
 The [FAIR principles](https://www.nature.com/articles/sdata201618)
-(**F**indable, **A**ccessible, **I**nteroperable, **R**eproducible) for scientific data
+(**F**indable, **A**ccessible, **I**nteroperable, **R**eusable) for scientific data
 management are widely recognized as a gold standard of open research
 practice. They are increasingly adopted by scientists in their research
 processes, and are already frequently required by funding agencies such
